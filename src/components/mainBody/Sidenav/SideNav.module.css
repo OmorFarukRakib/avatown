@@ -1,0 +1,42 @@
+.sidebar-wrapper{
+    height: 90vh;
+    overflow-y: auto;
+    overflow-x: hidden;
+    padding-bottom: 4vh;
+}
+.sidebar-collapse-btn-wrapper{
+    height: 80px;
+    display: grid;
+    place-content: center;
+}
+
+.sidebar-collapse-btn{
+    cursor: pointer;
+    font-size: 2rem;
+}
+
+.vrchat-quest-circle{
+    margin-left: 10px;
+    display: inline-block;
+    background-color: #75DE73;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    position: relative;
+    top: 3px;
+    
+}
+.vrchat-pcvr-circle{
+    margin-left: 10px;
+    display: inline-block;
+    background-color: #3CD4F5;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    position: relative;
+    top: 3px;
+}
+.triangle{
+    position: relative;
+    top: 2px;
+}

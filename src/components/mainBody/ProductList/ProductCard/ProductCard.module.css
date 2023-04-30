@@ -1,0 +1,157 @@
+.productCard-wrapper{
+    width: 280px;
+    margin: 0.5rem;
+    position: relative;
+    cursor: pointer;
+    border-radius: 20px;
+    background: #e0e0e0;
+    box-shadow: 20px 20px 60px #bebebe,
+            -20px -20px 60px #ffffff;
+    padding: 0.5rem;
+    height: fit-content;
+}
+
+.avatarImg-wrapper{
+overflow: hidden;
+}
+
+.avatarImg-wrapper > img{
+    height: 270px;
+    width: 270px;
+    border-radius: 20px;
+    transition: transform 0.3s ease-in-out;
+}
+.avatarImg-wrapper > img:hover {
+    transform: scale(1.2);
+}
+
+.avatar-title-wrapper{
+    font-family: 'Inter';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 15px;
+        line-height: 19px;
+        color: black;
+        margin-left: 5px;
+}
+
+.avatar-rating-wrapper{
+    display: flex;
+    gap: 10px;
+    font-size: 0.7rem;
+    align-items: center;
+    margin-top: 3px;
+    margin-left: 5px;
+}
+.avatar-rating-heart{
+    font-size: 1rem;
+    line-height: 2;
+    display: grid;
+    margin-left: auto;
+    margin-right: 10px;
+   
+}
+.avatar-pp-wrapper{
+    display: flex;
+    align-items: center;
+    margin-top: 5px;
+}
+.avatar-pp-wrapper > img {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    margin-left: 5px;
+    margin-top: 2px;
+}
+.avatar-pp-wrapper > div {
+    font-size: 0.rem;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+
+.avatar-price-wrapper{
+    font-weight: 500;
+    margin-left: 6px;
+}
+.avatar-price-dollar{
+    font-size: 0.6rem;
+}
+.avatar-price-amount{
+    font-size: 1.2rem;
+    margin-left: 4px;
+}
+.avatar-contents-wrapper{
+    display: flex;
+    margin-left: 5px;
+    gap: 3px;
+    line-height: 1.6;
+}
+.avatar-contents-dot-pc{
+    display: inline-block;
+        background-color: #3CD4F5;
+        width: 15px;
+        height: 15px;
+        border-radius: 50%;
+        position: relative;
+        top: 1px;
+}
+.avatar-contents-dot-quest{
+    display: inline-block;
+        background-color: #75DE73;
+        width: 15px;
+        height: 15px;
+        border-radius: 50%;
+        position: relative;
+        top: 1px;
+        margin-right: 0;
+}
+.avatar-contents{
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 1.5;
+    margin-left: 2px;
+}
+.avatar-share-info-wrapper{
+    display: flex;
+}
+.avatar-share-info-text{
+    margin-left: 5px;
+    margin-top: 0.2rem;
+    font-size: 12px;
+}
+.avatar-share-btn{
+    font-size: 1.5rem;
+    margin-top: 0.2rem;
+    margin-right: 10px;
+    margin-left: 10px;
+
+}
+
+.avatar-add-to-cart-btn{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+    z-index: 1;
+}
+.avatar-add-to-cart-btn > button {
+    cursor: pointer;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: #4C45F6;
+    color: white;
+    font-size: 0.7rem;
+    font-weight: 500;
+    border: 0px solid;
+    line-height: 1.5;
+}
+
+img > svg {
+    margin-top: 12px;
+    vertical-align: center;
+}
+
+
+
+
+

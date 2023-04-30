@@ -1,0 +1,25 @@
+.cartItem-wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5px;
+    padding: 5px;
+    border: 0.5px solid rgba(0, 0, 0, 0.062);
+}
+
+.item-wrapper {
+    display: flex;
+}
+
+
+.item-wrapper > img {
+    width: 5rem;
+}
+.item-details{
+    font-weight: 500;
+}
+.cart-btn-wrapper{
+    margin: 4px;
+    display: flex;
+    gap: 5px;
+}

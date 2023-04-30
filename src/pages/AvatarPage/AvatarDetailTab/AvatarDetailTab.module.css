@@ -1,0 +1,15 @@
+.features-wrapper{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    line-height: 2;
+    padding: 0rem 1rem;
+}
+
+.features-title{
+    font-size: large;
+    font-weight: 500;
+    color: rgba(0, 0, 0, 0.822);
+}
+.features-title > div {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.11);
+}

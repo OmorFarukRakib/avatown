@@ -1,0 +1,14 @@
+.mainBody-wrapper{
+    display: flex;
+    height: 96vh;
+    margin-top: 3.5rem;
+    
+}
+.sidenav-wrapper{
+    border: 1px solid  rgba(0, 0, 0, 0.068);
+}
+
+.productList-wrapper{
+    width: 100vw;
+    
+}
