@@ -2,9 +2,6 @@
 
 This is a marketplace to buy virtual avatar.
 
-## Demo
-
-Insert gif or link to demo
 
 ## Installation
 
