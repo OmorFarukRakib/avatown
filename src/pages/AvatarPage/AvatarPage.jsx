@@ -75,7 +75,7 @@ const AvatarPage = () => {
       <div className={clsx(styles["avatarPage-wrapper"])}>
         <div className={clsx(styles["avatarPage-product-show-wrapper"])}>
           <div className={clsx(styles["avatarPage-product-img-wrapper"])}>
-            <img src={`/src/assets/avatars/${avatar.src}`} alt="My Image" />
+            <img src={`/avatars/${avatar.src}`} alt="avatar" />
           </div>
         </div>
         <div className={clsx(styles["avatarPage-product-show-wrapper"])}>

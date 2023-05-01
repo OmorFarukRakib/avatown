@@ -34,7 +34,7 @@ const CartItem = ({ avatar }) => {
   return (
     <div className={clsx(styles["cartItem-wrapper"])}>
       <div className={clsx(styles["item-wrapper"])}>
-        <img src={`/src/assets/avatars/${avatar.src}`} alt="avatar" />
+        <img src={`/avatars/${avatar.src}`} alt="avatar" />
         <div className={clsx(styles["item-details"])}>
           <div>
             Avatar name &quot;Avatown&quot; -nice original avatar of Avatown

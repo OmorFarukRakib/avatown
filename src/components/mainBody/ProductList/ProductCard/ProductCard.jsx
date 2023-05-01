@@ -100,7 +100,7 @@ const ProductCard = ({ avatarInfo }) => {
         </>
         <div onClick={goToAvatarPage}>
           <div className={clsx(styles["avatarImg-wrapper"])}>
-            <img src={`/src/assets/avatars/${src}`} alt="avatar" />
+            <img src={`/avatars/${src}`} alt="avatar" />
           </div>
           <div className={clsx(styles["avatar-title-wrapper"])}>
             Avatar name &quot;Avatown&quot; -nice original avatar of Avatown
