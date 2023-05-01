@@ -2,13 +2,10 @@
 
 This is a marketplace to buy virtual avatar.
 
-## Demo
-
-Insert gif or link to demo
 
 ## Installation
 
-Install avatown with npm
+Install and run avatown as development mode with npm
 
 ```bash
   cd avatown
